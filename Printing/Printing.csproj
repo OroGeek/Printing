@@ -49,10 +49,15 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="itext7" Version="8.0.0" />
-		<PackageReference Include="itext7.bouncy-castle-adapter" Version="8.0.0" />
-		<PackageReference Include="itext7.bouncy-castle-fips-adapter" Version="8.0.0" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
+		<PackageReference Include="Mopups" Version="1.1.0" />
+		<PackageReference Include="System.Drawing.Common" Version="7.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="PrintView.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	</ItemGroup>
 
 </Project>
